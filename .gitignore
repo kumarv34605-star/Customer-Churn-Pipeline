@@ -10,7 +10,9 @@ __pycache__/
 logs/
 
 # Artifacts
-artifacts/
+artifacts/*
+!artifacts/model.pkl
+!artifacts/preprocessor.pkl
 
 # Jupyter
 .ipynb_checkpoints/
